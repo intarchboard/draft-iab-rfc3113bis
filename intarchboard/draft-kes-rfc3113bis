@@ -1,81 +1,105 @@
 ---
-###
-# Internet-Draft Markdown Template
-#
-# Rename this file from draft-todo-yourname-protocol.md to get started.
-# Draft name format is "draft-<yourname>-<workgroup>-<name>.md".
-#
-# For initial setup, you only need to edit the first block of fields.
-# Only "title" needs to be changed; delete "abbrev" if your title is short.
-# Any other content can be edited, but be careful not to introduce errors.
-# Some fields will be set automatically during setup if they are unchanged.
-#
-# Don't include "-00" or "-latest" in the filename.
-# Labels in the form draft-<yourname>-<workgroup>-<name>-latest are used by
-# the tools to refer to the current version; see "docname" for example.
-#
-# This template uses kramdown-rfc: https://github.com/cabo/kramdown-rfc
-# You can replace the entire file if you prefer a different format.
-# Change the file extension to match the format (.xml for XML, etc...)
-#
-###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "3GPP-IETF Standardization Collaboration"
+abbrev: "3GPP-IETF Standardization Collaboration"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
-submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
-number:
+docname: draft-kes-rfc3113bis-latest
+submissiontype: IAB
+obsoletes: 3113
 date:
-consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
-keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
-
+  group: "Internet Architecture Board"
+  type: "Internet Engineering Task Force"
+  mail: "iab@iab.org"
+  
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: Suresh Krishnan
+    organization: Cisco
+    email: suresh.krishnan@gmail.com
+ -
+    fullname: Charles Eckel
+    organization: Cisco
+    email: eckelcu@cisco.com
+ -
+    fullname: Peter Schmitt
+    organization: Huawei
+    email: Peter.Schmitt@huawei.com
 
 normative:
+  RFC3113:
 
 informative:
 
-...
 
 --- abstract
 
-TODO Abstract
-
+The objective of the collaboration between 3GPP and IETF is
+securing timely development of technical specifications,
+and to facilitate maximum interoperability with existing fixed and
+mobile Internet systems, devices, and protocols.
+This document summarizes some high-level principles of cooperation and the coordination between
+both organizations while leaving out the detailed descriptions to
+be specified and maintained by the coordination function itself.
 
 --- middle
 
 # Introduction
 
-TODO Introduction
+The IETF and 3GPP formalized a set of principles and guidelines for co-operation in {{?RFC3113}}. While the high level principles remain intact in the collaboration, many of the details in that document have become out of date due to changes in the organizational structures of both, IETF and 3GPP, as well as in the way the coordination activities are conducted in practice. E.g. both the IETF and 3GPP have reorganized and renamed areas so that the RFC3113 contains incorrect and misleading information. The document access mechanisms have also been changed even as the open access principles still remain intact. It is also difficult to keep this information up to date due to the fairly dynamic nature of both of the SDOs. This document intends to reiterate the high level principles of co-operation and the co-ordination mechanisms while leaving out the detailed descriptions to be specified and maintained by the co-ordination function itself.
+
+# IETF liaison coordination with 3GPP
+
+As stated in {{?RFC2850}}, the IAB acts as representative of the interests of the IETF in technical liaison
+relationships with other organizations concerned with standards. As such the IAB
+is the main contact point for liaison management with other SDOs.
+
+Based on the publication of RFC3113, the IAB established a formal
+Liaison relationship with 3GPP, which is still active up to the time of publication of this
+document, and appointed a liaison manager as a premier contact point for
+any liaison coordination between IETF and 3GPP.
+
+In addition, the IAB has the ability to host meetings or groups that supports
+a liaison relationship or process. At the time of publication of this document,
+the IAB maintains a group that is led jointly by the respective liaison managers from
+both organizations, IETF and 3GPP. All current groups are listed here:
+https://www.iab.org/programs/administrative-support-groups/
+
+# 3GPP liaison coordination with IETF
+
+3GPP specifications have widely adopted Internet specifications and, as stated originally in RFC3113,
+the preferred approach is to use the Internet standards unchanged, if feasible.
+As further originally stated in RFC3113, 3GPP has no intention to duplicate work performed in IETF.
+
+While this is the preferred scenario, 3GPP recognizes in RFC3113 that additions or modifications
+might be needed in order to make the IETF internet specification
+fulfill the needs of 3GPP, and that in such cases, 3GPP will take its concerns directly
+to the appropriate IETF working groups for resolution, or to an
+appropriate Area Director if no appropriate working group can be found.
 
 
-# Conventions and Definitions
+# General high-level coordination principles
 
-{::boilerplate bcp14-tagged}
+This document also
+reiterates the principle, as confirmed by both organizations, that informal communication at working level
+is encouraged whenever possible.
+
+When deemed necessary, formal communication between 3GPP and IETF is
+also permitted.  Relevant IETF Area Directors and 3GPP technical
+leadership are encouraged and authorized to facilitate such
+communications when needed with the support of the liaison managers of both organizations.
+
+# Changes from RFC3113
+ 
+* Details about Document sharing removed
+* Details about communication removed
+* Details about rapporteurs removed
 
 
 # Security Considerations
 
-TODO Security
-
+This document is concerned with the relationship between 3GPP and IETF and does not bring up any new security considerations.
 
 # IANA Considerations
 
@@ -86,5 +110,3 @@ This document has no IANA actions.
 
 # Acknowledgments
 {:numbered="false"}
-
-TODO acknowledge.
