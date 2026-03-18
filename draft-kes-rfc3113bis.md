@@ -9,10 +9,10 @@ obsoletes: 3113
 date:
 v: 3
 venue:
-  group: "Internet Architecture Board"
-  type: "Internet Engineering Task Force"
-  mail: "iab@iab.org"
-  
+#  group: "Internet Architecture Board"
+#  type: "Internet Engineering Task Force"
+#  mail: "iab@iab.org"
+
 author:
  -
     fullname: Suresh Krishnan
@@ -91,7 +91,7 @@ leadership are encouraged and authorized to facilitate such
 communications when needed with the support of the liaison managers of both organizations.
 
 # Changes from RFC3113
- 
+
 * Details about Document sharing removed
 * Details about communication removed
 * Details about rapporteurs removed
