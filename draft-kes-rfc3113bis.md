@@ -71,7 +71,7 @@ https://www.iab.org/programs/administrative-support-groups/
 3GPP specifications have widely adopted Internet specifications and, as stated originally in RFC3113,
 the preferred approach is to use the Internet standards unchanged, if feasible.
 3GPP's intention is to use the Internet standards as defined by IETF and
-describe in the specification how they are used in a 3PP network.
+describe in the specification how they are used in a 3GPP network.
 
 While this is the preferred scenario, 3GPP recognizes in RFC3113 that additions or modifications
 might be needed in order to make the IETF internet specification
