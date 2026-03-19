@@ -110,7 +110,7 @@ Table of Contents
    as stated originally in RFC3113, the preferred approach is to use the
    Internet standards unchanged, if feasible. 3GPP's intention is to use
    the Internet standards as defined by IETF and describe in the
-   specification how the Internet standards are used in a 3PP network.
+   specification how they are used in a 3PP network.
 
    While this is the preferred scenario, 3GPP recognizes in RFC3113 that
    additions or modifications might be needed in order to make the IETF
