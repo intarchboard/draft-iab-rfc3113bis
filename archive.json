@@ -1,0 +1,162 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2026-03-22T02:50:30.300778+00:00",
+  "repo": "intarchboard/draft-iab-rfc3113bis",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDORqCEjc7Lw5aw",
+      "title": "Input from Peter Schmitt",
+      "url": "https://github.com/intarchboard/draft-iab-rfc3113bis/pull/1",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-03-19T06:54:16Z",
+      "updatedAt": "2026-03-19T06:56:45Z",
+      "baseRepository": "intarchboard/draft-iab-rfc3113bis",
+      "baseRefName": "main",
+      "baseRefOid": "d6f3b39e5724e75b70ce2fe3e356c7ee33af3f6d",
+      "headRepository": "intarchboard/draft-iab-rfc3113bis",
+      "headRefName": "mirjak-patch-1",
+      "headRefOid": "1bfdd7039ef4996558b4e793ce4ab85b15e85bf5",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDORqCEjc7s0gR7",
+          "commit": {
+            "abbreviatedOid": "614f3f3"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-19T06:54:37Z",
+          "updatedAt": "2026-03-19T06:54:37Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\n3GPP's intention is to use the Internet standard as defined by IETF and\n```",
+              "createdAt": "2026-03-19T06:54:37Z",
+              "updatedAt": "2026-03-19T06:54:37Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDORqCEjc7s0grv",
+          "commit": {
+            "abbreviatedOid": "63a6b07"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-19T06:55:09Z",
+          "updatedAt": "2026-03-19T06:55:09Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\n3GPP's intention is to use the Internet standards as defined by IETF and\n```",
+              "createdAt": "2026-03-19T06:55:09Z",
+              "updatedAt": "2026-03-19T06:55:09Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDORqCEjc7s0hLC",
+          "commit": {
+            "abbreviatedOid": "a250801"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-19T06:55:41Z",
+          "updatedAt": "2026-03-19T06:55:41Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\ndescribe in the specification how they are used in a 3PP network.\n```",
+              "createdAt": "2026-03-19T06:55:41Z",
+              "updatedAt": "2026-03-19T06:55:41Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDORqCEjc7s0hzm",
+          "commit": {
+            "abbreviatedOid": "c066cee"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-03-19T06:56:39Z",
+          "updatedAt": "2026-03-19T06:56:40Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\ndescribe in the specification how they are used in a 3GPP network.\n```",
+              "createdAt": "2026-03-19T06:56:40Z",
+              "updatedAt": "2026-03-19T06:56:40Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
